@@ -2,7 +2,7 @@ import axios from "axios";
 import { BASE_URL } from "../hooks";
 
 export const customAxios = axios.create({
-    baseURL: BASE_URL
+    baseURL: BASE_URL || "http://45.138.158.137:92/api"
 });
 
 customAxios.interceptors.response.use(
