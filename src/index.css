@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.custom-table .ant-table-thead > tr > th,
+.custom-table .ant-table-tbody > tr > td {
+  font-size: 18px;
+}
+
+.custom-table .ant-table-thead > tr > th {
+  font-weight: bold;
+}
+
+.custom-table .ant-table {
+  font-size: 18px;
+}
